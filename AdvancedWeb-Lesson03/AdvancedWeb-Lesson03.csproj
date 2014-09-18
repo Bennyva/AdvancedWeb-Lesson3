@@ -65,10 +65,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="humans.txt" />
+    <Content Include="index.html" />
+    <Content Include="js\foundation.min.js" />
+    <Content Include="js\foundation\foundation.abide.js" />
+    <Content Include="js\foundation\foundation.accordion.js" />
+    <Content Include="js\foundation\foundation.alert.js" />
+    <Content Include="js\foundation\foundation.clearing.js" />
+    <Content Include="js\foundation\foundation.dropdown.js" />
+    <Content Include="js\foundation\foundation.equalizer.js" />
+    <Content Include="js\foundation\foundation.interchange.js" />
+    <Content Include="js\foundation\foundation.joyride.js" />
+    <Content Include="js\foundation\foundation.js" />
+    <Content Include="js\foundation\foundation.magellan.js" />
+    <Content Include="js\foundation\foundation.offcanvas.js" />
+    <Content Include="js\foundation\foundation.orbit.js" />
+    <Content Include="js\foundation\foundation.reveal.js" />
+    <Content Include="js\foundation\foundation.slider.js" />
+    <Content Include="js\foundation\foundation.tab.js" />
+    <Content Include="js\foundation\foundation.tooltip.js" />
+    <Content Include="js\foundation\foundation.topbar.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\vendor\fastclick.js" />
+    <Content Include="js\vendor\jquery.cookie.js" />
+    <Content Include="js\vendor\jquery.js" />
+    <Content Include="js\vendor\modernizr.js" />
+    <Content Include="js\vendor\placeholder.js" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
