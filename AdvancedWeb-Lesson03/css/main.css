@@ -1,2 +1,28 @@
-﻿body {
+﻿*:not(body):not(html){
+    box-sizing:border-box;
+    border:1px dashed #000;
+}
+
+.columns{
+    min-height:100px;
+
+}
+
+header#site-header{
+    margin-bottom:20px;
+    min-height:200px;
+    
+}
+
+.wrapper {
+    margin-bottom:20px;
+}
+
+.logo{
+display: block;
+  margin: 15px auto;
+  max-height:250px;
+  max-width:250px;
+
+
 }
