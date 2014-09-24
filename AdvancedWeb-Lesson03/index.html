@@ -7,91 +7,164 @@
     <!-- http://meyerweb.com/eric/tools/css/reset/reset200802.css -->
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/foundation.min.css" rel="stylesheet" />
+    
     <link href="css/main.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
     
 </head>
 <body>
-    
+
     <header id="site-header">
+        <div id="header_nav" class="sticky">
+            <nav class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#">HOME</a></h1>
+                    </li>
+                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a><span>Menu</span></a></li>
+                </ul>
+
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <!--
+                        <li class="has-dropdown">
+                            <a href="#">Right Button Dropdown</a>
+                            <ul class="dropdown">
+                                <li><a href="#">First link in dropdown</a></li>
+                                <li class="active"><a href="#">Active link in dropdown</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+
+                    <!-- Left Nav Section -->
+                    <ul class="left">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Me</a></li>
+
+                    </ul>
+                </section>
+            </nav>
+        </div>
         <div class="row">
-            
-                <div class="large-3 columns">
-                    <img src="img/hipsterbadge.png" alt="Logo" class="logo" />
+            <div class="large-3 columns">
+                <img src="img/logo.png" alt="Logo" class="logo" />
+            </div>
 
-
+            <div class="large-6 text-center columns end" id="title">
+                <h1>Benjamin Vanarragon</h1>
+                <div class="row">
+                    <div class="large-12 columns"><h4 id="grey">Creativity . Innovation . Adapting</h4></div>
                 </div>
-
-                <div class="large-9 text-center columns">
-                    <h1>Benjamin Vanarragon</h1>
-                    <div class="row">
-                        <div class="large-12 columns"><h2>I'm so purdy</h2></div>
-                    </div>
-                </div>
+            </div>
         </div>
     </header>
-        <div class="wrapper">
-            <div class="row">
-                <div class="large-6 medium-6 small-12 text-center columns">Left</div>
-                <div class="large-6 medium-6 text-center columns">Right</div>
+    <div class="wrapper">
+
+
+
+
+
+
+        <div class="row">
+            <div class="large-12 small-12 text-center columns orange title">
+                <h1>
+                    ABOUT ME
+                </h1>
             </div>
+
+        </div>
+        <div class="row">
+            <div class="large-12 small-12 text-center columns red">Left</div>
+
         </div>
 
 
-    <div class="row">
-        <div class="large-4 medium-4 small-6 text-center columns">One</div>
-        <div class="large-4 medium-4 small-6 text-center columns">Two</div>
-        <div class="large-4 medium-4 text-center columns">Three</div>
-    </div>
-
-    <div class="row">
-        <aside class="large-3 text-center columns">
-            Aside
-        </aside>
-        <div class="large-9 text-center columns">
-            <article>
-                <h3>{An article}</h3>
-                <p class="text-left">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
-                <p class="text-left">Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.</p>
-                <p class="text-left">Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.</p>
-            </article>
-            <div class="row">
-                <div class="large-6 columns">
-                    Related
-                </div>
-                <div class="large-6 columns">
-                    News
-                </div>
-                
+        <div class="row">
+            <div class="large-12 small-12 text-center columns orange title">
+                <h1>
+                    PROJECTS
+                </h1>
             </div>
+
+        </div>
+        <div class="row">
+            <div class="large-4 medium-4 small-6 text-center columns red">One</div>
+            <div class="large-4 medium-4 small-6 text-center columns orange">Two</div>
+            <div class="large-4 medium-4 text-center columns yellow">Three</div>
         </div>
 
+        <div class="row">
+            <div class="large-12 small-12 text-center columns orange title">
+                <h1>
+                    SERVICES
+                </h1>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <aside class="large-3 text-center columns red">
+                Aside
+                <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+
+            </aside>
+            <div class="large-9 text-center columns orange">
+                <article>
+                    <h3>{An article}</h3>
+                    <p class="text-left">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                    <p class="text-left">Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.</p>
+                    <p class="text-left">Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.</p>
+                </article>
+                <div class="row">
+                    <div class="large-6 columns red">
+                        Related
+                    </div>
+                    <div class="large-6 columns yellow">
+                        News
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!--END OF ROW-->
+
+
+    
+
+        <div class="row">
+            <div class="large-12 small-12 text-center columns orange title">
+                <h1>
+                    CONTACT ME
+                </h1>
+            </div>
+        </div><!--END OF WRAPPER-->
     </div>
-    <!--
-    <div class="row">
-        <article class="medium-8 small-7 columns" >
-            <h2>Here is a Stupid Article</h2>
-            <p>This is just some really stupid article if you are still reading this go milk a cow and suck a lemon you idiot.</p>
-        </article>
-    <aside class="medium-4 small-5 columns" >
-        <h4>Here is an aside</h4>
-        <p>I have entered some other text here that also will tell you that you suck at life.</p>
-    </aside>
-    </div>
+    <footer id="site-footer">
+        <div class="row">
+            <div class="large-3 columns">
+                <img src="img/logo.png" alt="Logo" class="logo" />
+            </div>
+
+            <div class="large-6 text-center columns end" id="title">
+                <h1>Benjamin Vanarragon</h1>
+                <div class="row">
+                    <div class="large-12 columns"><h3>. Creativity . Innovation . Adapting .</h3></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-    <div class="row">
-        <footer class="small-12 columns">
-            <p>Copy Right &copy; 2014 This is a really super duper uber long freaking footer GET REKT M9!!!!</p>
-
-        </footer>
-
-    </div> 
-    -->
 
 
     <!--JAVASRIPT-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script>
         $(document).foundation();
     </script>

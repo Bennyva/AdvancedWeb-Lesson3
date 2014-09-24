@@ -1,21 +1,37 @@
-﻿*:not(body):not(html){
-    box-sizing:border-box;
-    border:1px dashed #000;
+﻿
+*:not(body):not(html){
+    
+    /*border:1px dashed #000;
+    */
 }
 
 .columns{
-    min-height:100px;
+  min-height:300px;
 
 }
 
 header#site-header{
+    
     margin-bottom:20px;
     min-height:200px;
+   
+}
+
+footer#site-footer{
+    margin-bottom:40px;
+    min-height:200px;
+}
+.wrapper {
+    margin-bottom:20px;
     
 }
 
-.wrapper {
-    margin-bottom:20px;
+h1{
+font-family: 'Roboto', sans-serif;
+}
+
+h4{
+font-family: 'Roboto', sans-serif;
 }
 
 .logo{
@@ -23,6 +39,31 @@ display: block;
   margin: 15px auto;
   max-height:250px;
   max-width:250px;
+}
 
+.red{
+    background-color:red;
+}
 
+.orange{
+    background-color:#ff6a00;
+}
+
+.yellow{
+    background-color:#ffd800;
+}
+
+#title{
+    margin-top:75px;
+}
+.row{
+    margin-bottom:1px;
+    max-width:100%;
+}
+
+#grey{
+    color:GrayText;
+}
+.title{
+    min-height:50px;
 }
