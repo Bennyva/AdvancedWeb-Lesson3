@@ -1,4 +1,9 @@
-﻿
+﻿/*
+    File Name : main.css
+    Author Name : Benjamin Vanarragon
+    Web Site : webdesign4.georgianc.on.ca/~200260440/AW/Portfolio
+    Description : This file contains all of my styling for my index.html and other websites, adjusting the premade styling from the foundation framework
+*/
 *:not(body):not(html){
     
     /*border:1px dashed #000;
@@ -18,7 +23,7 @@ header#site-header{
 }
 
 footer#site-footer{
-    
+    display:block;
     min-height:200px;
 }
 .wrapper {
@@ -41,28 +46,25 @@ display: block;
   max-width:250px;
 }
 
-.red{
-    background-color:red;
+.white{
+    background-color:white
 }
 
-.orange{
-    background-color:#ff6a00;
+.gray{
+    background-color:lightgray
 }
 
-.yellow{
-    background-color:#ffd800;
-}
-
-#title{
-    margin-top:75px;
+.title{
+    margin-top:30px;
 }
 .row{
-    margin-bottom:1px;
+
     max-width:100%;
 }
 
-#grey{
+.grayText{
     color:GrayText;
+    text-shadow: -0.1px 0 white, 0 0.1px white, 0.1px 0 white, 0 -0.1px white;
 }
 .title{
     min-height:50px;
@@ -82,10 +84,36 @@ display: block;
 .wide{
     width:100%;
 }
-@media only screen and (max-width : 875px){
+@media only screen and (max-width : 1024px){
     .myName{
         display:none;
     }
 
 }
 
+
+
+.firstName{
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.bigPicture{
+    position: fixed; 
+    height: 100%; 
+    width: 100%
+}
+
+.leftBorder{
+    border-left:1px solid lightgray;
+}
+
+.connectLogo{
+    width:50px;
+    height:50px;
+}
+
+.headerLogo{
+    width:25px;
+    height:25px;
+}

@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    File Name : index.html
+    Author Name : Benjamin Vanarragon
+    Web Site : webdesign4.georgianc.on.ca/~200260440/AW/Portfolio
+    Description : This is the index, I am attempting to do for the most part a one pager HTML website, with a few exceptions
+    ...This contains all the content on the site and has a nav top-bar and footer.
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,6 +23,7 @@
 
     <header id="site-header">
         <div id="header_nav" class="sticky">
+
             <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false;">
                 <ul class="title-area">
                     <li class="name">
@@ -29,13 +37,13 @@
                     <!-- Right Nav Section -->
                     <ul class="right">
                         <!--
-                <li class="has-dropdown">
-                    <a href="#">Right Button Dropdown</a>
-                    <ul class="dropdown">
-                        <li><a href="#">First link in dropdown</a></li>
-                        <li class="active"><a href="#">Active link in dropdown</a></li>
-                    </ul>
-                </li> -->
+                        <li class="has-dropdown">
+                            <a href="#">Right Button Dropdown</a>
+                            <ul class="dropdown">
+                                <li><a href="#">First link in dropdown</a></li>
+                                <li class="active"><a href="#">Active link in dropdown</a></li>
+                            </ul>
+                        </li> -->
                     </ul>
 
                     <!-- Left Nav Section -->
@@ -44,48 +52,58 @@
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Contact Me</a></li>
+                        <li><a href="#"</a><img src="img/twitter%20logo.png" alt="" class="headerLogo" /></li>
+                        <li><a href="#"> <img src="img/youtube%20logo.png" alt="" class="headerLogo" /></a></li>
+                        <li><a href="#"> <img src="img/twitch-big-logo.png" alt="" class="headerLogo" /></a></li>
+                        <li><a href="#"> <img src="img/LinkedIn%20logo.png" alt="" class="headerLogo" /></a></li>
+
 
                     </ul>
                 </section>
             </nav>
+
         </div><!--END OF NAV BAR-->
-        
-        <div style="position: fixed; height: 100%; width: 100%; ">
+
+        <div class="bigPicture">
             <div class="row absoluteDIV">
                 <div class="large-3 columns">
                     <img src="img/logo.png" alt="Logo" class="logo" />
                 </div>
                 <div class="large-6 text-center columns end myName" id="title">
-                    <h1>Benjamin Vanarragon</h1>
+                    <h1 class="firstName">Benjamin Vanarragon</h1>
                     <div class="row">
-                        <div class="large-12 columns"><h4 id="grey">Creativity . Innovation . Adapting</h4></div>
+                        <div class="large-12 columns"><h4 class="grayText">HTML . Object Oriented Programming . CSS</h4></div>
                     </div>
                 </div>
             </div><!--END OF TEXT-->
 
             <ul data-orbit>
                 <li class="somethingLI">
-                    <img  class="wide" src="img/1380661_10202379198425982_559662378_n.jpg" alt="slide 1" />
+                    <img src="img/12460.jpg" alt=""><a href="www.google.ca"></a>
                 </li>
                 <li class="somethingLI">
 
-                    <img src="img/space-art_193017.jpg" />
+                    <img src="img/8848.jpg" alt="" />
+                </li>
+                <li class="somethingLI">
+                    <img src="img/9375.jpg" alt="" />
+
                 </li>
             </ul>
             <!--BEGINNING OF TEXT-->
-            
+
 
         </div><!--END OF ORBIT-->
 
-        
-
-        
-    
 
 
 
 
-        
+
+
+
+
+
     </header>
 
 
@@ -97,21 +115,34 @@
 
 
         <div class="row">
-            <div class="large-12 small-12 text-center columns orange title">
+            <div class="large-12 small-12 text-center columns gray title">
                 <h1>
                     ABOUT ME
                 </h1>
             </div>
 
         </div>
+
         <div class="row">
-            <div class="large-12 small-12 text-center columns red">Left</div>
+            <div class="large-3 small-3 text-left columns white"><img src="img/professionalSelfE.jpg" alt="selfie" class="logo" /></div>
+            <div class="large-9 small-9 text-left columns white leftBorder">
+                <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+                <p>
+                    Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                    Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                </p>
+                <p>
+                    Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.
+                    Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                </p>
+
+            </div>
 
         </div>
 
 
         <div class="row">
-            <div class="large-12 small-12 text-center columns orange title">
+            <div class="large-12 small-12 text-center columns gray title">
                 <h1>
                     PROJECTS
                 </h1>
@@ -119,13 +150,14 @@
 
         </div>
         <div class="row">
-            <div class="large-4 medium-4 small-6 text-center columns red">One</div>
-            <div class="large-4 medium-4 small-6 text-center columns orange">Two</div>
-            <div class="large-4 medium-4 text-center columns yellow">Three</div>
+            <div class="large-4 medium-4 small-6 text-center columns white"><img src="img/12460.jpg" alt="" class="logo" />PROJECT 1</div>
+
+            <div class="large-4 medium-4 small-6 text-center columns gray leftBorder"><img src="img/8848.jpg" alt="" class="logo" />PROJECT 2</div>
+            <div class="large-4 medium-4 text-center columns white leftBorder"><img src="img/9375.jpg" alt="" class="logo" />PROJECT 3</div>
         </div>
 
         <div class="row">
-            <div class="large-12 small-12 text-center columns orange title">
+            <div class="large-12 small-12 text-center columns gray title">
                 <h1>
                     SERVICES
                 </h1>
@@ -134,12 +166,8 @@
         </div>
 
         <div class="row">
-            <aside class="large-3 text-center columns red">
-                Aside
-                <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
 
-            </aside>
-            <div class="large-9 text-center columns orange">
+            <div class="large-12 text-center columns white leftBorder">
                 <article>
                     <h3>{An article}</h3>
                     <p class="text-left">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
@@ -147,11 +175,17 @@
                     <p class="text-left">Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.</p>
                 </article>
                 <div class="row">
-                    <div class="large-6 columns red">
-                        Related
+                    <div class="large-4 columns white">
+                        <img src="img/html%205.png" alt="" class="logo" />
+                        IM REALLY GOOD AT HTML, PLEASE JUST LOOK HOW AWESOME I AM
                     </div>
-                    <div class="large-6 columns yellow">
-                        News
+                    <div class="large-4 columns white leftBorder">
+                        <img src="img/css%20logo.png" alt="" class="logo" />
+                        IM REALLY AMAZING AT CSS, LOOK AT THIS WEBSITE, PLEASE
+                    </div>
+                    <div class="large-4 columns white leftBorder">
+                        <img src="img/git%20Thiny%20logo.png" alt="" class="logo" />
+                        IM GOOD AT PROGRAMMING SO I USE GITHUB FOR VERSION CONTROL
                     </div>
 
                 </div>
@@ -160,34 +194,61 @@
         </div><!--END OF ROW-->
 
 
-    
+
 
         <div class="row">
-            <div class="large-12 small-12 text-center columns orange title">
+            <div class="large-12 small-12 text-center columns gray title">
                 <h1>
-                    CONTACT ME
+                    GITHUB
                 </h1>
             </div>
-        </div><!--END OF WRAPPER-->
-    </div>
-    <footer id="site-footer">
+        </div>
         <div class="row">
-            <div class="large-3 columns">
-                <img src="img/logo.png" alt="Logo" class="logo" />
-            </div>
+            <div class="large-12 small-12 text-center columns white">Left</div>
 
-            <div class="large-6 text-center columns end" id="title">
-                <h1>Benjamin Vanarragon</h1>
-                <div class="row">
-                    <div class="large-12 columns"><h3>. Creativity . Innovation . Adapting .</h3></div>
-                </div>
+        </div>
+        <div class="row">
+            <div class="large-12 small-12 text-center columns gray title">
+                <h1>
+                    CONTACT ME
+
+
+
+                </h1>
             </div>
         </div>
-    </footer>
+        <div class="row">
+
+            <aside class="large-3 small-3 text-center columns white">
+                <h1>CONNECT</h1>
+                <hr /> <a href="http://www.twitter.com/aragallex"><img src="img/twitter%20logo.png" alt="" class="connectLogo" /> TWITTER</a><hr />
+                <a href="http://www.youtube.com.aragallex"><img src="img/youtube%20logo.png" alt="" class="connectLogo" /> YOUTUBE</a><hr />
+                <a href="http://www.twitch.tv/aragallex"><img src="img/twitch-big-logo.png" alt="" class="connectLogo" />TWITCH</a><hr />
+                <a href="http://ca.linkedin.com/pub/benjamin-van-arragon/93/12/90b"><img src="img/LinkedIn%20logo.png" alt="" class="connectLogo" />LINKED-IN</a><hr />
 
 
 
+            </aside>
 
+                <div class="large-3 small-3 text-center columns white leftBorder"><h3>Email</h3><p> benjaminvanarragon@gmail.com</p></div>
+                <div class="large-3 small-3 text-center columns white leftBorder"><h3>Address</h3><p> 123 Fake Address RD</p></div>
+                <div class="large-3 small-3 text-center columns white leftBorder"><h3>Phone</h3><p> (555)555-5555</p></div>
+                
+               
+   
+        </div>
+
+        <div class="row">
+
+            <footer class="large-12 text-center columns">
+                <div class="row">
+                    <div class="large-12 small-12 text-center columns gray">Copyright Benjamin Vanarragon &copy; 2013</div>
+
+                </div>
+            </footer>
+
+        </div>
+    </div><!--END OF WRAPPER-->
     <!--JAVASRIPT-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
