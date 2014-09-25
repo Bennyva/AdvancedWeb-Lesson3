@@ -16,7 +16,7 @@
 
     <header id="site-header">
         <div id="header_nav" class="sticky">
-            <nav class="top-bar" data-topbar role="navigation">
+            <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false;">
                 <ul class="title-area">
                     <li class="name">
                         <h1><a href="#">HOME</a></h1>
@@ -29,13 +29,13 @@
                     <!-- Right Nav Section -->
                     <ul class="right">
                         <!--
-                        <li class="has-dropdown">
-                            <a href="#">Right Button Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">First link in dropdown</a></li>
-                                <li class="active"><a href="#">Active link in dropdown</a></li>
-                            </ul>
-                        </li> -->
+                <li class="has-dropdown">
+                    <a href="#">Right Button Dropdown</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li> -->
                     </ul>
 
                     <!-- Left Nav Section -->
@@ -48,20 +48,47 @@
                     </ul>
                 </section>
             </nav>
-        </div>
-        <div class="row">
-            <div class="large-3 columns">
-                <img src="img/logo.png" alt="Logo" class="logo" />
-            </div>
-
-            <div class="large-6 text-center columns end" id="title">
-                <h1>Benjamin Vanarragon</h1>
-                <div class="row">
-                    <div class="large-12 columns"><h4 id="grey">Creativity . Innovation . Adapting</h4></div>
+        </div><!--END OF NAV BAR-->
+        
+        <div style="position: fixed; height: 100%; width: 100%; ">
+            <div class="row absoluteDIV">
+                <div class="large-3 columns">
+                    <img src="img/logo.png" alt="Logo" class="logo" />
                 </div>
-            </div>
-        </div>
+                <div class="large-6 text-center columns end myName" id="title">
+                    <h1>Benjamin Vanarragon</h1>
+                    <div class="row">
+                        <div class="large-12 columns"><h4 id="grey">Creativity . Innovation . Adapting</h4></div>
+                    </div>
+                </div>
+            </div><!--END OF TEXT-->
+
+            <ul data-orbit>
+                <li class="somethingLI">
+                    <img  class="wide" src="img/1380661_10202379198425982_559662378_n.jpg" alt="slide 1" />
+                </li>
+                <li class="somethingLI">
+
+                    <img src="img/space-art_193017.jpg" />
+                </li>
+            </ul>
+            <!--BEGINNING OF TEXT-->
+            
+
+        </div><!--END OF ORBIT-->
+
+        
+
+        
+    
+
+
+
+
+        
     </header>
+
+
     <div class="wrapper">
 
 
@@ -165,6 +192,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.topbar.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
     <script>
         $(document).foundation();
     </script>

@@ -71,8 +71,10 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\reset.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\1380661_10202379198425982_559662378_n.jpg" />
     <Content Include="img\hipsterbadge.png" />
     <Content Include="img\logo.png" />
+    <Content Include="img\space-art_193017.jpg" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />

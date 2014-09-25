@@ -18,12 +18,12 @@ header#site-header{
 }
 
 footer#site-footer{
-    margin-bottom:40px;
+    
     min-height:200px;
 }
 .wrapper {
     margin-bottom:20px;
-    
+ 
 }
 
 h1{
@@ -67,3 +67,25 @@ display: block;
 .title{
     min-height:50px;
 }
+
+.imageSlider{
+    width:100%;
+    height:100%;
+    position:absolute;
+
+}
+.absoluteDIV{
+    position:absolute;
+    z-index:3;
+}
+
+.wide{
+    width:100%;
+}
+@media only screen and (max-width : 875px){
+    .myName{
+        display:none;
+    }
+
+}
+
