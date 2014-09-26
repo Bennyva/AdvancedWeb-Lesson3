@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resumes - T4G.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,10 +71,13 @@
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\reset.css" />
+    <Content Include="cv.html" />
     <Content Include="humans.txt" />
     <Content Include="img\12460.jpg" />
     <Content Include="img\8848.jpg" />
     <Content Include="img\9375.jpg" />
+    <Content Include="img\assignment1.png" />
+    <Content Include="img\assignment2.png" />
     <Content Include="img\css logo.png" />
     <Content Include="img\git Thiny logo.png" />
     <Content Include="img\html 5.png" />
@@ -81,6 +85,7 @@
     <Content Include="img\logo.png" />
     <Content Include="img\oop logo.png" />
     <Content Include="img\professionalSelfE.jpg" />
+    <Content Include="img\resume.png" />
     <Content Include="img\twitch-big-logo.png" />
     <Content Include="img\twitter logo.png" />
     <Content Include="img\youtube logo.png" />
@@ -104,6 +109,7 @@
     <Content Include="js\foundation\foundation.tooltip.js" />
     <Content Include="js\foundation\foundation.topbar.js" />
     <Content Include="js\main.js" />
+    <Content Include="resume.html" />
     <Content Include="js\vendor\fastclick.js" />
     <Content Include="js\vendor\jquery.cookie.js" />
     <Content Include="js\vendor\jquery.js" />
