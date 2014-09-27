@@ -10,12 +10,31 @@
 
 $(".wrapper").offset({ top: window.innerHeight });
 
+
+
 $(document).ready(function () {
     $(".jumper").on("click", function (e) {
         e.preventDefault();
 
         $("body, html").animate({
-            scrollTop: $($(this).attr('href')).offset().top - $('.top-bar-section').height()
+            scrollTop: $($(this).attr('href')).offset().top - $('ul.title-area').height()
+
+
+
+
         });
+
+    });
+
+    $("nav li").click(function () {
+        $("nav li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+
+
+$(window).scroll(function () {
+    $(".bigPicture").css({
+        'opacity': 1 - (($(this).scrollTop()) / 1024)
     });
 });

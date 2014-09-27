@@ -57,7 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resumes - T4G.pdf" />
+    <Content Include="img\cocacolalogo.png" />
+    <Content Include="img\GitHub-Mark.png" />
+    <Content Include="img\procorepclogo.png" />
+    <Content Include="img\procorepcRevamped.png" />
+    <Content Include="resume.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
