@@ -10,3 +10,12 @@
 
 $(".wrapper").offset({ top: window.innerHeight });
 
+$(document).ready(function () {
+    $(".jumper").on("click", function (e) {
+        e.preventDefault();
+
+        $("body, html").animate({
+            scrollTop: $($(this).attr('href')).offset().top - $('.top-bar-section').height()
+        });
+    });
+});
