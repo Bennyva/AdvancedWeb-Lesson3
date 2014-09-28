@@ -4,95 +4,97 @@
     Web Site : webdesign4.georgianc.on.ca/~200260440/AW/Portfolio
     Description : This file contains all of my styling for my index.html and other websites, adjusting the premade styling from the foundation framework
 */
+
+/*for debugging*/
 *:not(body):not(html){
     
     /*border:1px dashed #000;
     */
 }
-
+/*hide the horizontal scroll bar*/
 body {
     overflow-x: hidden;
     
 }
-
+/*give the columns a minimum height of 300 px*/
 .columns{
 min-height:300px;
 
 }
-
+/*for the header of the site, minimum height 200*/
 header#site-header{
     
     margin-bottom:20px;
     min-height:200px;
    
 }
-
+/*for the footer, make it shorter than the rest of the other columns*/
 .footerBottom{
     min-height:50px;
     max-height:50px;
 }
-.wrapper {
-    margin-bottom:20px;
- 
-}
 
+
+/*change the font family for the h1 tags*/
 h1{
 font-family: 'Roboto', sans-serif;
 }
-
+/*change the font family for the h4 tags*/
 h4{
 font-family: 'Roboto', sans-serif;
 }
-
+/*change the font family for the h3 tags*/
 h3{
 font-family: 'Roboto', sans-serif;
 }
-
+/*for the projects section thumbnails*/
 .logo{
 display: block;
   margin: 15px auto;
   max-height:250px;
   max-width:250px;
 }
-
+/*make the element background color white*/
 .white{
-    background-color:white
+    background-color:white;
 }
-
+/*give the element a background color gray*/
 .gray{
-    background-color:lightgray
+    background-color:#D1D1D1;
 }
 
-.title{
-   
-}
+
+/*make the rows 100% wide*/
 .row{
 
     max-width:100%;
 }
-
+/*to give a p element gray text*/
 .grayText{
     color:GrayText;
     text-shadow: -0.1px 0 white, 0 0.1px white, 0.1px 0 white, 0 -0.1px white;
 }
+/*for the gray bars separating the divs of information*/
 .title{
     min-height:50px;
 }
-
+/*for the image slider as well*/
 .imageSlider{
     width:100%;
     height:100%;
     position:absolute;
 
 }
+/*make a div absolute positioning*/
 .absoluteDIV{
     position:absolute;
     z-index:3;
 }
-
+/*make something 100% wide*/
 .wide{
     width:100%;
 }
+/*make my name dissapear when the screen size is less than 1024px*/
 @media only screen and (max-width : 1024px){
     .myName{
         display:none;
@@ -100,56 +102,39 @@ display: block;
 
 }
 
-
-
+/*for my firstname in the title*/
 .firstName{
     color: black;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
+/*This is for the orbit slider on the website*/
 .bigPicture{
     position: fixed; 
     height: 100%; 
     width: 100%
 }
-
+/*a line to the left of the div*/
 .leftBorder{
     border-left:1px solid lightgray;
 }
-
+/*for the logos in the keep connected panel*/
 .connectLogo{
     width:50px;
     height:50px;
 }
-
+/*this is the logo in the nav bar*/
 .headerLogo{
     width:25px;
     height:25px;
 }
-
+/*changing the font of the p tags*/
 p{
     font-family: 'Exo 2', sans-serif;
-
     font-size:large;
 }
 
-.resume{
-    display: block;
-  margin-left:auto;
-  margin-right:auto;
-  min-height:50%;
-  min-width:50%;
 
-}
-.resumeWrapper{
-    width:100%;
-}
-
-.objectPDF{
-
-     width:100%;
-    height:1000px;
-}
+/*for a slightly smaller image on the website*/
 .logoSmaller{
     display: block;
   margin: 15px auto;

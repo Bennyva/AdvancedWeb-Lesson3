@@ -7,6 +7,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+<!--BEGINNING OF HEAD-->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,51 +15,37 @@
     <!-- http://meyerweb.com/eric/tools/css/reset/reset200802.css -->
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/foundation.min.css" rel="stylesheet" />
-    
     <link href="css/main.css" rel="stylesheet" />
+    <!--Links to the fonts for my website-->
     <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
-    
-</head>
+</head><!--END OF HEAD-->
+<!--BEGINNING OF BODY-->
 <body>
-
+    <!--SITE HEADER-->
     <header id="site-header">
+        <!--make it sticky so it doesn't move-->
         <div id="header_nav" class="sticky">
-
             <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false;">
                 <ul class="title-area">
                     <li class="name">
                         <h1><a href="#site-header" class="jumper">HOME</a></h1>
                     </li>
-                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
                     <li class="toggle-topbar menu-icon"><a><span>Menu</span></a></li>
                 </ul>
-
                 <section class="top-bar-section">
-                    <!-- Right Nav Section -->
-                    <ul class="right">
-                        <!--
-                        <li class="has-dropdown">
-                            <a href="#">Right Button Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">First link in dropdown</a></li>
-                                <li class="active"><a href="#">Active link in dropdown</a></li>
-                            </ul>
-                        </li> -->
-                    </ul>
-
                     <!-- Left Nav Section -->
                     <ul class="left">
+                        <!--CLASS JUMPER ALLOWS THIS FOR SMOOTH SCROLLING-->
                         <li><a href="#about" class="jumper">About Me</a></li>
                         <li><a href="#projects" class="jumper">Projects</a></li>
                         <li><a href="#services" class="jumper">Services</a></li>
                         <li><a href="#github" class="jumper">GitHub</a></li>
                         <li><a href="#contactme" class="jumper">Contact Me</a></li>
-                        
-
-
                     </ul>
+                    <!--Right nav section-->
                     <ul class="right">
+                        <!--LINKS IN HEADERS TO SOCIAL NETWORKS-->
                         <li><a href="http://www.twitter.com/aragallex" target="_blank"> <img src="img/twitter%20logo.png" alt="" class="headerLogo" /></a></li>
                         <li><a href="http://www.youtube.com/aragallex" target="_blank"> <img src="img/youtube%20logo.png" alt="" class="headerLogo" /></a></li>
                         <li><a href="http://www.twitch.tv/aragallex" target="_blank"> <img src="img/twitch-big-logo.png" alt="" class="headerLogo" /></a></li>
@@ -66,9 +53,8 @@
                     </ul>
                 </section>
             </nav>
-
         </div><!--END OF NAV BAR-->
-
+        <!--foundation orbit slider for images-->
         <div class="bigPicture">
             <div class="row absoluteDIV">
                 <div class="large-3 columns">
@@ -81,55 +67,36 @@
                     </div>
                 </div>
             </div><!--END OF TEXT-->
-
+            <!--BEGINNING OF ORBIT SLIDER-->
             <ul data-orbit>
-
                 <li class="somethingLI">
-
+                    <!--LINKS TO PROJECT 1-->
                     <a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment1/" target="_blank"><img src="img/procorepclogo.png" alt="project 1" /></a>
                 </li>
                 <li class="somethingLI">
-                    <a href="http://webdesign4.georgianc.on.ca/~200260440/cocacola/index.php" target="_blank"><img src="img/cocacolalogo.png" alt="coca cola project" /></a>
-
+                    <!--LINKS TO PROJECT 2-->
+                    <a href="http://webdesign4.georgianc.on.ca/~200260440/cocacola/index.php" target="_blank"><img src="img/cocacolalogo%20(2).png" alt="coca cola" /></a>
                 </li>
                 <li class="somethingLI">
+                    <!--LINKS TO PROJECT 3-->
                     <a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment2/" target="_blank"><img src="img/procorepcRevamped.png" alt="assignment 2" /></a>
                 </li>
             </ul>
-            <!--BEGINNING OF TEXT-->
-
-
         </div><!--END OF ORBIT-->
-
-
-
-
-
-
-
-
-
-
-    </header>
-
-
+    </header><!--END OF HEADER-->
+    <!--THIS HOLDS EVERYTHING ELSE IN THE SITE-->
     <div class="wrapper">
-
-
-
-
-
-
+        <!--ABOUT ME SECTION-->
         <div class="row">
             <div class="large-12 small-12 text-center columns gray title" id="about">
                 <h1>
                     ABOUT ME
                 </h1>
             </div>
-
-        </div>
-
+        </div><!--END OF TITLE FOR ABOUT ME-->
+        <!--BEGINNING OF ABOUT ME TEXT-->
         <div class="row">
+            <!--ABOUT ME IMAGE-->
             <div class="large-3 medium-3 text-left columns white"><img src="img/professionalSelfE.jpg" alt="selfie" class="logo" /></div>
             <div class="large-6 medium-8 text-left columns white leftBorder">
                 <p>I love being creative. It's something I have done and will continue to do my entire life. Whether it is with programming or anything in liberal arts.</p>
@@ -141,96 +108,84 @@
                     I have won awards in computer studies and entered contests. I worked as a Junior Developer at T4G in Toronto last summer for my Co-op and hope to find a position
                     in the goverment for my next term. My latest CV can be found <a href="resume.pdf">HERE</a>
                 </p>
-
-
-
             </div>
             <div class="large-3 medium-1 text-left columns white leftBorder">
-
+            </div>
+        </div><!--END OF ABOUT ME TEXT-->
+        <!--BEGGINNING OF PROJECTS TITLE-->
+        <div class="row">
+            <div id="projects" class="large-12 small-12 text-center columns gray title">
+                <h1>
+                    PROJECTS
+                </h1>
+            </div>
+        </div>
+        <!--END OF TITLE-->
+        <!--BEGINNING OF PROJECTS PICTURES-->
+        <div class="row">
+            <!--PROJECT 1-->
+            <div class="large-4 medium-4  text-center columns white"><a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment1/"><img src="img/assignment1.png" alt="" class="logo" /></a>PROJECT 1</div>
+            <!--PROJECT 2-->
+            <div class="large-4 medium-4  text-center columns white leftBorder"><a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment2/"><img src="img/assignment2.png" alt="" class="logo" /></a> PROJECT 2</div>
+            <!--PROJECT 3-->
+            <div class="large-4 medium-4 text-center columns white leftBorder"><img src="img/cocoacola.png" alt="project 3" class="logo" />PROJECT 3</div>
+        </div>
+        <!--END OF PROJECTS CONTENT-->
+        <!--BEGINING OF SERVICES TITLE-->
+        <div class="row">
+            <div id="services" class="large-12 small-12 text-center columns gray title">
+                <h1>
+                    SERVICES
+                </h1>
             </div>
 
-
-            <div class="row">
-                <div id="projects" class="large-12 small-12 text-center columns gray title">
-                    <h1>
-
-                        PROJECTS
-                    </h1>
+        </div>
+        <!--END OF SERVICES TITLE-->
+        <!--BEGINNING OF SERVICES CONTENT-->
+        <div class="row">
+            <div class="large-8  large-push-2 medium-12 text-center columns white ">
+                <h3>WHAT I OFFER</h3>
+                <hr />
+                <p class="text-center">Over the years here at Georgian I have learned alot of things, but not every language is as fun as the next.</p>
+                <hr />
+                <p class="text-left">
+                    If I had to pick my favorite languages that I have learned it would probably have to be HTML, CSS, and C#. So in general I really enjoy doing web development and Object Oriented Programming.
+                    I am in advance web development in my current year of school and I have already have 2 semesters of Object Oriented Programming under my belt. During my Co-op I worked with mainly C# and did some web
+                    development as well including javascript and JQuery.
+                </p>
+                <hr />
+                <div class="row">
+                    <div class="large-3 medium-12 columns"><img src="img/git%20Thiny%20logo.png" alt="" class="text-left logoSmaller" /></div>
+                    <div class="large-9 medium-12 text-left columns">
+                        <p>
+                            Probably my favorite language is C#. The options of what you can do are endless. With an IDE like visual studio and thirdy-party version control implemented by GitHub the options are truly
+                            limitless. I love programming in C#, and I would love to make a program for you! Contact me with any questions.
+                        </p>
+                    </div>
                 </div>
-
             </div>
-            <div class="row">
-                <div class="large-4 medium-4  text-center columns white"><a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment1/"><img src="img/assignment1.png" alt="" class="logo" /></a>PROJECT 1</div>
-
-                <div class="large-4 medium-4  text-center columns white leftBorder"><a href="http://webdesign4.georgianc.on.ca/~200260440/php/assignment2/"><img src="img/assignment2.png" alt="" class="logo" /></a> PROJECT 2</div>
-                <div class="large-4 medium-4 text-center columns white leftBorder"><img src="img/9375.jpg" alt="" class="logo" />PROJECT 3</div>
-            </div>
-
-            <div class="row">
-                <div id="services" class="large-12 small-12 text-center columns gray title">
-                    <h1>
-                        SERVICES
-                    </h1>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-
-                <div class="large-8  large-push-2 medium-12 text-center columns white ">
-
-                    <h3>WHAT I OFFER</h3>
-                    <hr />
-                    <p class="text-center">Over the years here at Georgian I have learned alot of things, but not every language is as fun as the next.</p>
-                    <hr />
-                    <p class="text-left">
-                        If I had to pick my favorite languages that I have learned it would probably have to be HTML, CSS, and C#. So in general I really enjoy doing web development and Object Oriented Programming.
-                        I am in advance web development in my current year of school and I have already have 2 semesters of Object Oriented Programming under my belt. During my Co-op I worked with mainly C# and did some web
-                        development as well including javascript and JQuery.
+            <div class="large-2  large-pull-8 medium-12 columns white">
+                <div class="text-right white">
+                    <img src="img/html%205.png" alt="" class="logo " />
+                    <p>
+                        I have practiced HTML and built websites for the last year while studying here at Georgian College. I will be building a website for myself soon. I also will be building a website
+                        for my mother who teaches piano, this way her students will be able to connect with her without even having to leave their home.
                     </p>
-                    <hr />
-                    <div class="row">
-                        <div class="large-3 medium-12 columns"><img src="img/git%20Thiny%20logo.png" alt="" class="text-left logoSmaller" /></div>
-                        <div class="large-9 medium-12 text-left columns">
-                            <p>
-                                Probably my favorite language is C#. The options of what you can do are endless. With an IDE like visual studio and thirdy-party version control implemented by GitHub the options are truly
-                                limitless. I love programming in C#, and I would love to make a program for you! Contact me with any questions.
-                            </p>
-                        </div>
-
-                    </div>
-
-
 
                 </div>
-                <div class="large-2  large-pull-8 medium-12 columns white">
-                    <div class="text-right white">
-                        <img src="img/html%205.png" alt="" class="logo " />
-                        <p>
-                            I have practiced HTML and built websites for the last year while studying here at Georgian College. I will be building a website for myself soon. I also will be building a website
-                            for my mother who teaches piano, this way her students will be able to connect with her without even having to leave their home.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="large-2 medium-12 text-left columns white ">
-                    <div class="white ">
-                        <img src="img/css%20logo.png" alt="" class="logo " />
-                        <p>
-                            I have been practising CSS for as long as I've know html, and I am getting pretty good at it? Woudln't you say? I have learned how to use foundation and implement my own CSS classes on top of
-                            their framework. I can design webpages if many different ways, if you want a one-page article like this one or a multiple paged website.
-                        </p>
-                    </div>
-                </div>
-
             </div>
-
-        </div><!--END OF ROW-->
-
-
-
-
+            <div class="large-2 medium-12 text-left columns white ">
+                <div class="white ">
+                    <img src="img/css%20logo.png" alt="" class="logo " />
+                    <p>
+                        I have been practising CSS for as long as I've know html, and I am getting pretty good at it? Woudln't you say? I have learned how to use foundation and implement my own CSS classes on top of
+                        their framework. I can design webpages if many different ways, if you want a one-page article like this one or a multiple paged website.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--END OF SERVICES CONTENT-->
+        <!--BEGINNING OF GITHUB TITLE-->
         <div class="row">
             <div id="github" class="large-12 small-12 text-center columns gray title">
                 <h1>
@@ -238,60 +193,52 @@
                 </h1>
             </div>
         </div>
+        <!--END OF GITHUB TITLE-->
+        <!--BEGINNING OF GITHUB CONTENT-->
         <div class="row">
             <div class="large-12 small-12 text-center columns white">
-                <a href="https://github.com/Bennyva?tab=repositories"><img src="img/GitHub-Mark.png" alt="github" class="logo"/></a>
+                <a href="https://github.com/Bennyva?tab=repositories"><img src="img/GitHub-Mark.png" alt="github" class="logo" /></a>
                 To view my repositories on GitHub click <a href="https://github.com/Bennyva?tab=repositories">HERE</a>
             </div>
 
         </div>
+        <!--END OF GITHUB CONTENT-->
+        <!--BEGINNING OF CONTACT ME TITLE-->
         <div class="row">
             <div id="contactme" class="large-12 small-12 text-center columns gray title">
                 <h1>
                     CONTACT ME
-
-
-
                 </h1>
             </div>
         </div>
+        <!--END OF CONTACT ME TITLE-->
+        <!--BEGINNING OF KEEP CONNECTED PANEL-->
         <div id="#keepconnected" class="row">
-
             <aside class="large-3 small-6 text-center columns white">
                 <h1>KEEP</h1>
                 <hr /> <a href="http://www.twitter.com/aragallex" target="_blank"><img src="img/twitter%20logo.png" alt="" class="connectLogo" /> TWITTER</a><hr />
                 <a href="http://www.youtube.com.aragallex" target="_blank"><img src="img/youtube%20logo.png" alt="" class="connectLogo" /> YOUTUBE</a><hr />
-
-
-
-
             </aside>
             <aside class="large-3 small-6 text-center columns white">
                 <h1>CONNECTED</h1>
                 <hr /><a href="http://www.twitch.tv/aragallex" target="_blank"><img src="img/twitch-big-logo.png" alt="" class="connectLogo" />TWITCH</a><hr />
                 <a href="http://ca.linkedin.com/pub/benjamin-van-arragon/93/12/90b" target="_blank"><img src="img/LinkedIn%20logo.png" alt="" class="connectLogo" />LINKED-IN</a><hr />
             </aside>
-
             <div class="large-2 text-center columns white leftBorder" style="position:relative; top:50%;"><h3>Email</h3><p> benjaminvanarragon@gmail.com</p></div>
             <div class="large-2  small-6 text-center columns white leftBorder"><h3>Address</h3><p> 123 Fake Address RD</p></div>
             <div class="large-2  small-6 text-center columns white leftBorder"><h3>Phone</h3><p> (555)555-5555</p></div>
-
-
-
         </div>
-
+        <!--END OF KEEP CONNECTED-->
+        <!--BEGINNING OF FOOTER-->
         <div class="row">
-
             <footer class="large-12 text-center footerBottom columns ">
                 <div class="row">
                     <div class="large-12 small-12 text-center footerBottom columns gray">Copyright &copy; Benjamin Vanarragon  2013</div>
-
                 </div>
             </footer>
-
         </div>
+        <!--END OF FOOTER-->
     </div><!--END OF WRAPPER-->
-    </div>
     <!--JAVASRIPT-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
@@ -301,6 +248,5 @@
         $(document).foundation();
     </script>
     <script src="js/main.js"></script>
-</body>
-
-</html>
+</body><!--END OF BODY-->
+</html><!--END OF HTML-->

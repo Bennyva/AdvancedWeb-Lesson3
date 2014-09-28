@@ -57,7 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\cocacolalogo %282%29.png" />
     <Content Include="img\cocacolalogo.png" />
+    <Content Include="img\cocoacola.png" />
     <Content Include="img\GitHub-Mark.png" />
     <Content Include="img\procorepclogo.png" />
     <Content Include="img\procorepcRevamped.png" />
